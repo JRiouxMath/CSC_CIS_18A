@@ -1,0 +1,42 @@
+/*
+ * Jeanine Rioux 11/29/17
+ * Final Project for CSC 18A
+ * Abstract class SnowSportRental with three child classes
+ * To include JUnit testing.
+ */
+package snowsportrental;
+
+public abstract class SnowSportRental {
+
+        private boolean newModel;
+        private double rentalCost;
+        private int rentalNumber; // make a long int
+
+
+     public void setNewModel(boolean newModel) {
+        this.newModel = newModel;
+    } // end method setNewModel
+
+    public double getRentalCost() {
+        return rentalCost;
+    }// end method getRentalCost
+
+    public void setRentalCost(double rentalCost) {
+        this.rentalCost = rentalCost;
+    }// end method setRentalCost
+
+     public int getRentalNumber() {
+        return rentalNumber;
+    }// end method getRentalNumber
+
+
+    public void setRentalNumber(int rentalNumber) {
+        this.rentalNumber = rentalNumber;
+    } // end method setRentalNumber
+        
+        
+        
+        
+        
+    
+}
